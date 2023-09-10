@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chess</title>
+  </head>
+  <body onload="onRestartGame()">
+    <header>
+      <h1>Vanila Chess</h1>
+      <p style="color: #ffffff"><span class="player-turn"></span>turn</p>
+    </header>
+    <table class="center">
+      <tbody class="game-board"></tbody>
+    </table>
+
+    <button onclick="onRestartGame()">Reset</button>
+
+    <script src="js/pieces.js"></script>
+    <script src="js/piecesMoves.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
